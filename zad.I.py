@@ -9,9 +9,9 @@ class Student:
         average = sum(self.marks) / len(self.marks)
         return average > 50
 
+
 student_1 = Student("Marek", [50, 60, 70])
 student_2 = Student("Bartek", [35, 40, 50])
 
 print(student_1.is_passed())
 print(student_2.is_passed())
-
