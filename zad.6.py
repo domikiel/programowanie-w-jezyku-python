@@ -4,6 +4,7 @@ def merged_lists_and_powered(list1: list, list2: list) -> list:
     result = [value ** 3 for value in unique_values]
     return result
 
+
 list_a = [2, 3, 8, 10, 11, 13]
 list_b = [2, 3, 6, 9, 12, 15]
 
